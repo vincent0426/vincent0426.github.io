@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+            defer
+        ></script>
+        <link rel="stylesheet" href="style.css" />
+        <script src="index.js" defer></script>
+        <title>Vincent Profile</title>
+    </head>
+    <body>
+        <nav
+            class="navbar fixed-top navbar-expand-lg navbar-light bg-light fst-italic"
+        >
+            <div class="container-fluid fs-3 fw-bolder">
+                <a class="navbar-brand fs-3 fw-bolder" href="#"
+                    >Vincent Hsieh</a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#certificates"
+                                >Certificates</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="hero">
+            <div class="hero container">
+                <div>
+                    <h1>
+                        Hello
+                        <span></span>
+                    </h1>
+                    <h1>
+                        My Name Is
+                        <span></span>
+                    </h1>
+                    <h1>
+                        Vincent
+                        <span></span>
+                    </h1>
+                    <a
+                        target="_blank"
+                        href="https://github.com/Vincent0426"
+                        type="button"
+                        id="portfolio"
+                    >
+                        Portfolio
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section id="about">
+            <div class="about container">
+                <ul>
+                    <li>
+                        <img src="./img/about.PNG" alt="img" />
+                        <div id="about-content">
+                            <h1 class="section-title">
+                                About
+                                <span>me</span>
+                            </h1>
+                            <h3>
+                                B.A., Information Management, Expected 2024<br />
+                                National Taiwan University, Taipei
+                            </h3>
+                            <p>
+                                Hi, my name is Vincent.
+                                <br />
+                                I'm now studying Information Management at
+                                National Taiwan University. And I'm currently
+                                learning blockchain dev, which interests me a
+                                lot.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h1>Recent Projects</h1>
+                <div class="row" style="margin-bottom: 10px">
+                    <div class="col justify-content-center">
+                        <div class="card">
+                            <img
+                                src="./img/covid-19.png"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                        </div>
+                        <div class="project-text text-center">
+                            <p class="fs-3">COVID-19-Dashboard</p>
+                        </div>
+                    </div>
+                    <div class="col justify-content-center">
+                        <div class="card">
+                            <img
+                                src="./img/flappy.png"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                        </div>
+                        <div class="project-text text-center">
+                            <p class="fs-3">Flappy Jenny</p>
+                        </div>
+                    </div>
+                    <div class="col justify-content-center">
+                        <div class="card">
+                            <img
+                                src="./img/stock.png"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                        </div>
+                        <div class="project-text text-center">
+                            <p class="fs-3">Stock Crawler</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col justify-content-center">
+                        <div class="card">
+                            <img
+                                src="./img/pdogs.png"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                        </div>
+                        <div class="project-text text-center">
+                            <p class="fs-3">Testing PDOGS</p>
+                        </div>
+                    </div>
+                    <div class="col justify-content-center">
+                        <div class="card">
+                            <img
+                                src="./img/projectManagement.png"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                        </div>
+                        <div class="project-text text-center">
+                            <p class="fs-3">Project Management</p>
+                        </div>
+                    </div>
+                    <div class="col justify-content-center">
+                        <div class="card">
+                            <img
+                                src="./img/DappTokens.png"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                        </div>
+                        <div class="project-text text-center">
+                            <p class="fs-3">ETH Swap Tokens</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Certificates Section -->
+        <section id="certificates">
+            <div class="container">
+                <h1>Certificates</h1>
+                <div
+                    class="row justify-content-center text-center"
+                    id="certificates-content"
+                >
+                    <div class="col justify-content-center">
+                        <div
+                            data-iframe-width="400"
+                            data-iframe-height="270"
+                            data-share-badge-id="82265fc3-485a-4e9d-b7ff-cd7b7ce48602"
+                            data-share-badge-host="https://www.credly.com"
+                        ></div>
+                        <script
+                            type="text/javascript"
+                            async
+                            src="//cdn.credly.com/assets/utilities/embed.js"
+                        ></script>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact & Footer Section -->
+        <section id="contact">
+            <div class="container">
+                <h1>Contact Info</h1>
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <div class="contact-item">
+                            <div class="mb-5">
+                                <i class="bi bi-envelope"></i>
+                                <span id="email">Email</span>
+                            </div>
+                            <div class="email">
+                                <h2>0426vincent@gmail.com</h2>
+                                <h2>b09607013@ntu.edu.tw</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div class="socials-media">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    target="_blank"
+                                    href="https://www.facebook.com/"
+                                >
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    target="_blank"
+                                    href="https://twitter.com/home?lang=zh-tw"
+                                >
+                                    <i class="bi bi-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    target="_blank"
+                                    href="https://www.instagram.com/"
+                                >
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    target="_blank"
+                                    href="https://www.linkedin.com/in/vincent-hsieh-5b6a27207/"
+                                >
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Footer -->
+            </div>
+        </section>
+    </body>
+</html>
