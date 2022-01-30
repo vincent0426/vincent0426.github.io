@@ -188,11 +188,17 @@ nav.navbar {
 .card {
     height: 200px;
 }
+.card:hover {
+    opacity: 0.5;
+}
 .card img {
     height: 200px;
 }
 .project-text {
     color: rgb(134, 134, 134);
+}
+.project-text:hover {
+    color: rgba(134, 134, 134, 0.749);
 }
 /* Certificates Section */
 #certificates {
