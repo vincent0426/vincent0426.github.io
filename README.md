@@ -1,2 +1,2 @@
-# Vincent0426.github.io
+# vincent0426.github.io
 https://vincent0426.github.io./
